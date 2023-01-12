@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+
+</head>
+<body>
+    <button id="myBtn">Contact Us</button>
+
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <form>
+    <span class="close">x</span><br>
+    
+	  <input type="text" id="name" placeholder="Your Name" onblur="name_validate()" onfocus="validate_name()" required><br><p id="p1"></p>
+	  <input type="email" id="email" placeholder="Email id" onblur="email_validate()" onfocus="validate_email()" required><br><p id="p2"></p>
+	  <input type="text" id="phone" placeholder="Phone No." onblur="phone_validate()" onfocus="validate_phone()" required><br><p id="p3"></p>
+      <textarea id="message" rows="5" placeholder="How can we help you?" onblur="message_validate()" onfocus="validate_message()"></textarea><p id="p4"></p><br>
+      <button type="submit" onclick="sendMail()">Send</button>
+    </form>
+  </div>
+
+</div>
+
+<script src="contactus.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init("7UE_ZgzUDFLnCAj53");
+  })();
+</script>
+    
+</body>
+</html>
