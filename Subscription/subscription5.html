@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <script src="https://kit.fontawesome.com/7f54b8f9af.js" crossorigin="anonymous"></script>
+
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+    <link rel="stylesheet" href="Subscription.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <img src="logo-no-background.png" class="logo2">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EXERCISE</a></li>
+                    <li><a href="#">PLANS</a></li>
+                    <li><a href="#">DIET</a></li>
+                    <li><a href="#">LOGIN/SIGN UP</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="row2">
+            <div class="col2">
+                <h1>Force Fit</h1>
+                <p>Male 80Above</p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="heading">
+        <h1>Exercise</h1><br>
+    </div>
+
+
+    <div class="exercise">
+        <div class="days">
+            <button onclick="changeM()">Monday</button>
+            <button onclick="changeT()">Tuesday</button>
+            <button onclick="changeW()">Wednesday</button>
+            <button onclick="changeTH()">Thursday</button>
+            <button onclick="changeF()">Friday</button>
+            <button onclick="changeS()">Saturday</button>
+            <button onclick="changeSU()">Sunday</button>
+        </div>
+    </div>
+
+
+    <div class="exerciseM">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldrunning.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Running</h2>
+                            <p class="description">1. Start with a walking program <br>
+                                2. Ease into a walk-run program <br>
+                                3. Shorten your stride <br>
+                                4. Give your body a chance to adapt and recover <br>
+                                5. Develop a rhythm, then layer in the intensity
+                            </p>
+
+
+                            <button id="done1" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball Exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br>
+
+                            </p>
+
+                            <button id="done3" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldresistance.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Resistance Band Exercise</h2>
+                            <p class="description">1. Stand tall with feet hip width apart. Place the band around your
+                                wrists. Retract your shoulders by pulling them back and down to maintain good posture
+                                throughout the movement. <br>
+                                2. Raise your arms shoulder width apart and pulse the arms out to the sides. <br></p>
+
+                            <button id="done4" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldcycling.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Cycling</h2>
+                            <p class="description">1. Protect your head. <br>
+                                2. Don't pedal in high gear for extended periods of time. <br>
+                                3. Use your gears,Get a proper bike fit. <br>
+                                4. Get the right saddle,Change position while riding. <br>
+                            </p>
+
+
+                            <button id="done5" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldtaichi.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Tai Chi</h2>
+                            <p class="description">1. Take it easy, but don't forget about your posture. <br>
+                                2. Keep your center of gravity low. <br>
+                                3. Focus on fluid, full-body movements. <br>
+                                4. Move with your qi in mind. <br>
+                                5. Be mindful.</p>
+
+                            <button id="done6" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseT">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+
+                            <div class="card-image">
+                                <img src="exercise/oldjogging.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Jogging</h2>
+                            <p class="description">1. Build up to jogging with regular walks. <br>
+                                2. Warm up for 5-10 minutes before you jog. <br>
+                                3. Alternate between jogging and walking when you start. <br>
+                                4. Practice proper form while jogging. <br>
+                                5. Breathe regularly as you jog.
+                            </p>
+
+                            <button id="done11" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+
+                            <div class="card-image">
+                                <img src="exercise/oldsquat.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Squat</h2>
+                            <p class="description">1. Stand straight with feet hip-width apart. <br>
+                                2. Tighten your stomach muscles. <br>
+                                3. Lower down, as if sitting in an invisible chair. <br>
+                                4. Straighten your legs to lift back up. <br>
+                                5. Repeat the movement. <br> <br></p>
+
+                            <button id="done12" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball Exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br></p>
+
+                            <button id="done14" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+
+                            <div class="card-image">
+                                <img src="exercise/oldyoga.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Yoga</h2>
+                            <p class="description">1. Start with Acceptance <br>
+                                2. Release Expectations <br>
+                                3. Understand the Core of Yoga <br>
+                                4. Notice Your Breathing <br>
+                                5. Get Comfortable in Stillness <br>
+                                6. Learn Basic Yoga Poses
+                            </p>
+
+                            <button id="done15" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+
+                            <div class="card-image">
+                                <img src="exercise/olddancing.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dancing</h2>
+                            <p class="description">1. Choose the style of dance that want to learn. <br>
+                                2. Warm up and stretch before begin dancing. <br>
+                                3. Cool down for approximately 10 minutes once you finished dancing. <br>
+                                4. Practice strength and flexibility exercises to improve dance ability.
+                            </p>
+
+                            <button id="done16" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseW">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldrunning.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Running</h2>
+                            <p class="description">1. Start with a walking program <br>
+                                2. Ease into a walk-run program <br>
+                                3. Shorten your stride <br>
+                                4. Give your body a chance to adapt and recover <br>
+                                5. Develop a rhythm, then layer in the intensity</p>
+
+                            <button id="done21" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldsquat.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Squat</h2>
+                            <p class="description">1. Stand straight with feet hip-width apart. <br>
+                                2. Tighten your stomach muscles. <br>
+                                3. Lower down, as if sitting in an invisible chair. <br>
+                                4. Straighten your legs to lift back up. <br>
+                                5. Repeat the movement. <br> <br></p>
+
+                            <button id="done22" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldtaichi.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Tai Chi</h2>
+                            <p class="description">1. Take it easy, but don't forget about your posture. <br>
+                                2. Keep your center of gravity low. <br>
+                                3. Focus on fluid, full-body movements. <br>
+                                4. Move with your qi in mind. <br>
+                                5. Be mindful.</p>
+
+                            <button id="done23" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldyoga.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Yoga</h2>
+                            <p class="description">1. Start with Acceptance <br>
+                                2. Release Expectations <br>
+                                3. Understand the Core of Yoga <br>
+                                4. Notice Your Breathing <br>
+                                5. Get Comfortable in Stillness <br>
+                                6. Learn Basic Yoga Poses
+                            </p>
+
+                            <button id="done24" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldresistance.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Resistance Band Exercise</h2>
+                            <p class="description">1. Stand tall with feet hip width apart. Place the band around your
+                                wrists. Retract your shoulders by pulling them back and down to maintain good posture
+                                throughout the movement. <br>
+                                2. Raise your arms shoulder width apart and pulse the arms out to the sides. <br>
+                            </p>
+
+                            <button id="done25" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseTH">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldjogging.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Jogging</h2>
+                            <p class="description">1. Build up to jogging with regular walks. <br>
+                                2. Warm up for 5-10 minutes before you jog. <br>
+                                3. Alternate between jogging and walking when you start. <br>
+                                4. Practice proper form while jogging. <br>
+                                5. Breathe regularly as you jog.</p>
+
+                            <button id="done31" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldtaichi.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Tai Chi</h2>
+                            <p class="description">1. Take it easy, but don't forget about your posture. <br>
+                                2. Keep your center of gravity low. <br>
+                                3. Focus on fluid, full-body movements. <br>
+                                4. Move with your qi in mind. <br>
+                                5. Be mindful.</p>
+
+                            <button id="done32" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldresistance.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Resistance Band Exercise</h2>
+                            <p class="description">1. Stand tall with feet hip width apart. Place the band around your
+                                wrists. Retract your shoulders by pulling them back and down to maintain good posture
+                                throughout the movement. <br>
+                                2. Raise your arms shoulder width apart and pulse the arms out to the sides. <br></p>
+
+                            <button id="done33" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball Exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br>
+                            </p>
+
+                            <button id="done34" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldcycling.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Cycling</h2>
+                            <p class="description">1. Protect your head. <br>
+                                2. Don't pedal in high gear for extended periods of time. <br>
+                                3. Use your gears,Get a proper bike fit. <br>
+                                4. Get the right saddle,Change position while riding. <br></p>
+
+                            <button id="done35" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseF">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldrunning.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Running</h2>
+                            <p class="description">1. Start with a walking program <br>
+                                2. Ease into a walk-run program <br>
+                                3. Shorten your stride <br>
+                                4. Give your body a chance to adapt and recover <br>
+                                5. Develop a rhythm, then layer in the intensity</p>
+
+                            <button id="done41" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldresistance.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Resistance Band Exercise</h2>
+                            <p class="description">1. Stand tall with feet hip width apart. Place the band around your
+                                wrists. Retract your shoulders by pulling them back and down to maintain good posture
+                                throughout the movement. <br>
+                                2. Raise your arms shoulder width apart and pulse the arms out to the sides. <br></p>
+
+                            <button id="done43" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldyoga.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Yoga</h2>
+                            <p class="description">1. Start with Acceptance <br>
+                                2. Release Expectations <br>
+                                3. Understand the Core of Yoga <br>
+                                4. Notice Your Breathing <br>
+                                5. Get Comfortable in Stillness <br>
+                                6. Learn Basic Yoga Poses</p>
+
+                            <button id="done44" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br></p>
+
+                            <button id="done45" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/olddancing.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dancing</h2>
+                            <p class="description">1. Choose the style of dance that want to learn. <br>
+                                2. Warm up and stretch before begin dancing. <br>
+                                3. Cool down for approximately 10 minutes once you finished dancing. <br>
+                                4. Practice strength and flexibility exercises to improve dance ability.</p>
+
+                            <button id="done46" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseS">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldjogging.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Jogging</h2>
+                            <p class="description">1. Build up to jogging with regular walks. <br>
+                                2. Warm up for 5-10 minutes before you jog. <br>
+                                3. Alternate between jogging and walking when you start. <br>
+                                4. Practice proper form while jogging. <br>
+                                5. Breathe regularly as you jog.
+                            </p>
+
+                            <button id="done51" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldcycling.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Cycling</h2>
+                            <p class="description">1. Protect your head. <br>
+                                2. Don't pedal in high gear for extended periods of time. <br>
+                                3. Use your gears,Get a proper bike fit. <br>
+                                4. Get the right saddle,Change position while riding. <br>
+
+                            </p>
+
+                            <button id="done52" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball Exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br></p>
+
+                            <button id="done53" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldtaichi.avif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Tai chi</h2>
+                            <p class="description">1. Take it easy, but don't forget about your posture. <br>
+                                2. Keep your center of gravity low. <br>
+                                3. Focus on fluid, full-body movements. <br>
+                                4. Move with your qi in mind. <br>
+                                5. Be mindful.</p>
+
+                            <button id="done55" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldsquat.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Squat</h2>
+                            <p class="description">1. Stand straight with feet hip-width apart. <br>
+                                2. Tighten your stomach muscles. <br>
+                                3. Lower down, as if sitting in an invisible chair. <br>
+                                4. Straighten your legs to lift back up. <br>
+                                5. Repeat the movement. <br> <br></p>
+
+                            <button id="done56" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseSU">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldrunning.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Running</h2>
+                            <p class="description">1. Start with a walking program <br>
+                                2. Ease into a walk-run program <br>
+                                3. Shorten your stride <br>
+                                4. Give your body a chance to adapt and recover <br>
+                                5. Develop a rhythm, then layer in the intensity</p>
+
+                            <button id="done61" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldpilates.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Pilates Ball Exercise</h2>
+                            <p class="description">1. Bounce on the ball lightly. <br>
+                                2. Use the ball to perform a sit up. <br>
+                                3. Do a ball lift, do a ball lift. <br>
+                                4. Do a bird dog, perform a back extension. <br>
+                                5. Perform ab balances. <br><br>
+
+                            </p>
+
+                            <button id="done63" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldresistance.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Resistance Band Exercise</h2>
+                            <p class="description">1. Stand tall with feet hip width apart. Place the band around your
+                                wrists. Retract your shoulders by pulling them back and down to maintain good posture
+                                throughout the movement. <br>
+                                2. Raise your arms shoulder width apart and pulse the arms out to the sides. <br>
+
+                            </p>
+
+                            <button id="done64" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/oldcycling.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Cycling</h2>
+                            <p class="description">1. Protect your head. <br>
+                                2. Don't pedal in high gear for extended periods of time. <br>
+                                3. Use your gears,Get a proper bike fit. <br>
+                                4. Get the right saddle,Change position while riding. <br></p>
+
+                            <button id="done65" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/olddancing.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dancing</h2>
+                            <p class="description">1. Choose the style of dance that want to learn. <br>
+                                2. Warm up and stretch before begin dancing. <br>
+                                3. Cool down for approximately 10 minutes once you finished dancing. <br>
+                                4. Practice strength and flexibility exercises to improve dance ability.</p>
+
+                            <button id="done66" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <h1>Diet</h1><br>
+    </div>
+
+    <div class="exercise1">
+        <div class="days1">
+            <button onclick="changem()">Monday</button>
+            <button onclick="changet()">Tuesday</button>
+            <button onclick="changew()">Wednesday</button>
+            <button onclick="changeth()">Thursday</button>
+            <button onclick="changef()">Friday</button>
+            <button onclick="changes()">Saturday</button>
+            <button onclick="changesu()">Sunday</button>
+        </div>
+    </div>
+
+    <div class="exercisem">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/spinachomletblack.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 serving 10-Minute Spinach Omelet 1 cup blackberries</p>
+
+                            <button id="done01" class="button2">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/GreenBeanSalad.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">1 serving 3-Ingredient Green Goddess White Bean Salad</p>
+
+                            <button id="done02" class="button2">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/almondscucumber.jfif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">¼ cup dry-roasted unsalted almonds or 1/4 cup sliced cucumber</p>
+
+                            <button id="done03" class="button2">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/tomatorice.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">1 serving 20-Minute Tomato soup and 3/4 cup cooked mesh rice</p>
+
+                            <button id="done04" class="button2">Done</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciset">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/fruitsalad.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 serving fruit salad <br><br></p>
+
+                            <button id="done011" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/mashedpotato.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">1 serving mashed potato + riice and any daal which u may consume</p>
+
+                            <button id="done012" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/orangeyogurt.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">1 medium orange or ½ cup low-fat plain Greek yogurt or ½ cup
+                                raspberries</p>
+
+                            <button id="done013" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/chickenchapati.jfif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">1 serving Chicken & green salad with 2 whole wheat grain chapati</p>
+
+                            <button id="done014" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exercisew">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/blueyogurt.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 cup low-fat plain yogurt ⅓ cup blueberries 3 Tbsp. chopped walnuts
+                            </p>
+
+                            <button id="done021" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/vegricedaal.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">1 serving green leafy vegetables with some rice and daal</p>
+
+                            <button id="done022" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/pearwalnut.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">1 large pear or 10 dried walnut halves <br><br></p>
+
+                            <button id="done023" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/omlettesoup.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">1 serving omlette with some vegetable soup and chapati</p>
+
+                            <button id="done024" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exerciseth">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/bluejuice.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 serving Blueberry and any seasonal fruit juice of 1 glass</p>
+
+                            <button id="done031" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/saladolive.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">2 cups drak green salad with 1 tbsp olive oil and lemon grassing +
+                                1/3 cup peas</p>
+
+                            <button id="done032" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/pearcucumber.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">1 large pear or sliced cucumber <br><br></p>
+
+                            <button id="done033" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/vegchapati.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">1 serving Vegetarian Chopped food + whole grain of chapati</p>
+
+                            <button id="done034" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exercisef">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/blueyogurt.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 cup low-fat plain yogurt ⅓ cup blueberries 3 Tbsp. chopped walnuts
+                                <br><br>
+                            </p>
+
+                            <button id="done041" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/eggrice.jfif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">Curried Egg Rice <br><br><br></p>
+
+                            <button id="done042" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/respwalnut.jfif" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">½ cup raspberries or 12 dried walnut halves <br><br><br></p>
+
+                            <button id="done043" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/vegmixchapati.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">3 cup of cooked mixed vegetables + 1/2 cup whole wheat chapati +
+                                sweets which u may prefer</p>
+
+                            <button id="done044" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exercises">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/yogurtblue.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">Smoothie made with 1 cup plain Greek yougurt , 1 cup berries and 1
+                                tbsp honey.</p>
+
+                            <button id="done051" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/tunasalad.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">Tuna Salad Wrap <br><br></p>
+
+                            <button id="done052" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/pearalmond.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">1 large pear or 30 dry-roasted unsalted almonds <br><br></p>
+
+                            <button id="done053" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/tofu.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">3 grilled tofu + 2 cups fried potatoes + 2 cups green salad + 1 cup
+                                churned milk</p>
+
+                            <button id="done054" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="exercisesu">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/grainlavash.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Breakfast</h2>
+                            <p class="description">1 egg with 1/2 cup diced vegetables + 2 pieces whole grain lavash.
+                            </p>
+
+                            <button id="done061" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/chickensoup.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Lunch</h2>
+                            <p class="description">Chicken Vegetable Soup Avocado Yogurt <br><br></p>
+
+                            <button id="done062" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/bananashake.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Snack</h2>
+                            <p class="description">1 Drizzled Banana and some fruit juice of 1 glass</p>
+
+                            <button id="done063" class="button1">Done</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="exercise/ricedaal.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Dinner</h2>
+                            <p class="description">1 cup cooked rice with 1 cup of daal and 1/4 cup cooked tomato and
+                                mashing it with corriender.</p>
+
+                            <button id="done064" class="button1">Done</button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <h1>Tips</h1><br>
+    </div>
+
+    <div class="exercise1">
+        <div class="days1">
+            <button onclick="Changem()">Monday</button>
+            <button onclick="Changet()">Tuesday</button>
+            <button onclick="Changew()">Wednesday</button>
+            <button onclick="Changeth()">Thursday</button>
+            <button onclick="Changef()">Friday</button>
+            <button onclick="Changes()">Saturday</button>
+            <button onclick="Changesu()">Sunday</button>
+        </div>
+    </div>
+
+    <div class="containerM">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Balance exercises help maintain standing and stability, whether you’re stationary or moving around. Try
+                yoga, tai chi, and posture exercises to gain confidence with balance.</p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Make sure you eat a variety of foods to get all the nutrients you need. Your plate should look like a
+                rainbow—bright, colored foods are always the best choice! <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p> Cardiovascular exercise uses large muscle groups in rhythmic motions over a period of time. It gets your
+                heart pumping and may even leave you feeling a little short of breath. </p>
+        </div>
+    </div>
+
+    <div class="containerT">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p> Strength training builds up muscle with repetitive motion using weight or external resistance from
+                machines, free weights, elastic bands, or your own body weight.</p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>The healthiest foods are whole foods. These are often found on the perimeter of the grocery store in the
+                produce, meat, and dairy sections <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Flexibility workouts challenge the ability of your body’s joints to move freely through a full range of
+                motion. This can be done through stationary stretches or stretches. </p>
+        </div>
+    </div>
+
+    <div class="containerW">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Walking is a perfect way to start exercising. It requires no special equipment, aside from a pair of
+                comfortable walking shoes, and can be done almost anywhere. <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>To maintain your weight, you must eat the right amount of food for your age and body. The American Heart
+                Association provides recommended daily servings for adults aged 60+.
+            </p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Exercising with others can help keep you motivated while also providing a source of fun, stress relief,
+                and a place to meet friends. <br><br></p>
+        </div>
+    </div>
+
+    <div class="containerTH">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Yoga combines a series of poses with breathing. Moving through the poses helps improve strength,
+                flexibility and balance, and can be adapted to any level. <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Water is an important nutrient too! Don’t let yourself get dehydrated—drink small amounts of fluids
+                consistently throughout the day. Tea, coffee, and water are your best choices. </p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>These martial arts-inspired systems of movement can increase balance and strength. Classes for seniors
+                are often available at local YMCA or community centers.</p>
+        </div>
+    </div>
+
+    <div class="containerF">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Warm up for 5 minutes before you exercise. Walking slowly and then stretching are good warm-up
+                activities. With more stretching for 5 minutes when you finish exercising.</p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Want to get the biggest nutritional bang for your buck? The Supplemental Nutrition Assistance Program
+                (SNAP) can help you afford healthy food when you need it. </p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Exercise is only good for you if you are feeling well. Wait to exercise until you feel better if you have
+                a cold, the flu or another illness. If you miss exercise for more than 2 weeks.</p>
+        </div>
+    </div>
+
+    <div class="containerS">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Core strength is more than just working on the six-pack. These muscles support the spine through flexion,
+                extension and rotation, and incorporate the pelvic floor. </p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>To ensure a healthy digestive system, senior citizens must eat enough fibre. Fibre-rich foods help to
+                avoid constipation and other problems. <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Good nutrition plays a key role in healthy ageing and quality of life, especially when there are many
+                physiological changes associated with the ageing process. <br><br></p>
+        </div>
+    </div>
+
+    <div class="containerSU">
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>The research is piling up on the wide range of health benefits you receive from playing golf including
+                improved longevity and cardiovascular fitness, reduced risk of chronic conditions.</p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Sometimes preparing a diet plan with the best foods for old age persons, containing all nutrients,
+                becomes difficult due to certain food-related restrictions. <br><br></p>
+        </div>
+
+        <div class="box1">
+            <h2>Adult</h2><br>
+            <h3>Age(80Above)</h3><br>
+            <p>Balance exercises are so important for older men over the age of 55 to help enhance proprioception
+                awareness, and tone, and prevent against falls and the resulting injuries.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <footer> -->
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="logo-no-background.png" class="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus vitae sed, quia nisi laboriosam
+                    ad assumenda dolorum sequi distinctio ipsam, veniam, eaque aliquam ullam ipsa dignissimos quo! Sint,
+                    repellat repellendus?</p>
+
+            </div>
+            <div class="col">
+                <h3>Our Service <div class="underline"><span></span></div>
+                </h3><br><br>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Company <div class="underline"><span></span></div>
+                </h3><br><br>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Follow Us <div class="underline"><span></span></div>
+                </h3><br><br>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Force-Fit Fitness © 2022 - All Rights Reserved</p>
+    </footer>
+
+
+
+    <!-- Swiper js  -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+
+    <script src="Subscription.js"></script>
+</body>
+
+</html>
